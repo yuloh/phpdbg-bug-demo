@@ -1,0 +1,18 @@
+sudo: false
+language: php
+
+php:
+  - '7.0'
+
+cache:
+  directories:
+    - "$HOME/.composer/cache"
+
+install:
+  - composer install --prefer-dist --quiet
+
+script:
+  - phpdbg -qrr vendor/bin/phpunit
+
+notifications:
+    email: false
