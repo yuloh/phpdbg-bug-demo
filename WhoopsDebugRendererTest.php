@@ -9,7 +9,7 @@ use Whoops\Handler\PrettyPageHandler;
 use Whoops\RunInterface;
 
 /**
- * @covers App\Infrastructure\Debug\Renderer\WhoopsDebugRenderer
+ * @covers Fidry\PhpdbgDemo\WhoopsDebugRenderer
  */
 class WhoopsDebugRendererTest extends \PHPUnit_Framework_TestCase
 {
